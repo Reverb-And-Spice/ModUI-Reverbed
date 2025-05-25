@@ -1,13 +1,13 @@
 ﻿using MelonLoader;
-using ModUI_Reverbed;
+using RumbleChaos;
 
-[assembly: MelonInfo(typeof(ReverbUi),BuildInfo.Name, BuildInfo.Version, BuildInfo.Authors)]
+[assembly: MelonInfo(typeof(RumbleChaosMod),BuildInfo.Name, BuildInfo.Version, BuildInfo.Authors)]
 [assembly: MelonGame("Buckethead Entertainment", "RUMBLE")]
 [assembly: MelonColor(255, 255, 170, 238)] // #FAE pink :3
 
-namespace ModUI_Reverbed;
+namespace RumbleChaos;
 
-public class ReverbUi : MelonMod // Looks better if the classname is ReverbUi, bite me -blank
+public class RumbleChaosMod : MelonMod // Looks better if the classname is RumbleChaosMod, bite me -blank
 {
     public override void OnLateInitializeMelon()
     {
