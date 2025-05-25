@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <Configurations>Release;Debug</Configurations>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
         <Platforms>x64</Platforms>
     </PropertyGroup>
 

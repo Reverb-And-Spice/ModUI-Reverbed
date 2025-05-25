@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net6.0": {
+      "LavaGang.MelonLoader": {
+        "type": "Direct",
+        "requested": "[0.7.0, )",
+        "resolved": "0.7.0",
+        "contentHash": "roYFz3+U8kb8pUZJf/9KG6Sx7CKnEN17QPEZEXUZpX7rCfAiLB+w7QcDLVGJwSHzPiTmCp3Os98f8W2ChAtDPQ=="
+      }
+    }
+  }
+}

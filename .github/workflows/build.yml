@@ -1,0 +1,40 @@
+
+name: Build Mod
+
+on:
+  push:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 6.0.x
+        cache: true
+
+
+    - name: Cache references folder
+      id: cache-references
+      uses: actions/cache@v4
+      with:
+        path: .ref/
+        key: references-${{ runner.os }}
+
+    - name: Fetch references if not cached
+      if: steps.cache-references.outputs.cache-hit != 'true'
+      run: |
+        echo "Downloading references.zip..."
+        curl -L "${{ secrets.refUrl }}" -o references.zip
+        unzip -q references.zip -d .ref/
+
+
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore
