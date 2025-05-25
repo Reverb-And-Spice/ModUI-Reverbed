@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModUI-Reverbed", "ModUI-Reverbed.csproj", "{9327BFC2-BCDE-4F40-8A35-52D8FBF788A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RumbleChaos", "RumbleChaos.csproj", "{9327BFC2-BCDE-4F40-8A35-52D8FBF788A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
