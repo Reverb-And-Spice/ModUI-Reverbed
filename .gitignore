@@ -1,9 +1,17 @@
-bin/
-obj/
-.ref/
+# IDE Objects
 .idea/
 .vs/
-/packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+# Build outputs
+bin/
+obj/
 *.dll
+
+# references
+.ref/
+/packages/
+
+# General unwanted c# shit
+*.user
