@@ -13,6 +13,7 @@ public class ReverbUi : MelonMod // Looks better if the classname is ReverbUi, b
     {
         // subscribe to shit here I.e. the match start event from the modding ui
         
+        // i HATE turtles
     }
 
     public override void OnApplicationQuit()
