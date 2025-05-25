@@ -37,4 +37,8 @@ jobs:
       run: dotnet restore
       
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build --no-restore --output artifact
+    - uses: actions/upload-artifact@v4
+      with:
+        name: RumbleChaos
+        path: artifact/RumbleChaos.dll
