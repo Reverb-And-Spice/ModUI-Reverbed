@@ -12,7 +12,9 @@ public class ReverbUi : MelonMod // Looks better if the classname is ReverbUi, b
     public override void OnLateInitializeMelon()
     {
         // subscribe to shit here I.e. the match start event from the modding ui
+
         // i HATE turtles
+        //EVEN MORE RELEVANT COMMNET!!!
     }
 
     public override void OnApplicationQuit()
