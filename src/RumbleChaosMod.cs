@@ -15,6 +15,7 @@ public class RumbleChaosMod : MelonMod // Looks better if the classname is Rumbl
 
         // i REALLY HATE turtles
         //EVEN MORE RELEVANT COMMNET!!!
+        //Less relevant arbitrary one to test
     }
 
     public override void OnApplicationQuit()
