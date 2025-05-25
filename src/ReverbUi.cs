@@ -13,7 +13,7 @@ public class ReverbUi : MelonMod // Looks better if the classname is ReverbUi, b
     {
         // subscribe to shit here I.e. the match start event from the modding ui
 
-        //relevant comment
+        //EVEN MORE RELEVANT COMMNET!!!
         
     }
 
